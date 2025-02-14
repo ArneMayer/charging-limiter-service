@@ -1,0 +1,3 @@
+mqtt_server: octoprint.fritz.box
+mqtt_port: 1883
+mqtt_ssl: false
