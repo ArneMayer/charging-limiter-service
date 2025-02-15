@@ -1,3 +1,11 @@
 mqtt_server: octoprint.fritz.box
 mqtt_port: 1883
 mqtt_ssl: false
+odin2_soc_topic: odin2/charge
+plug_on_topic: plugs/odin2-charge-plug/state
+plug_on_payload: "on"
+plug_off_topic: plugs/odin2-charge-plug/state
+plug_off_payload: "off"
+on_time_topic: "services/charging-limiter/on-time"
+activation_soc: 77
+deactivation_soc: 80
