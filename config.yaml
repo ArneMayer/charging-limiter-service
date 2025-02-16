@@ -1,4 +1,4 @@
-mqtt_server: octoprint.fritz.box
+mqtt_server: mosquitto
 mqtt_port: 1883
 mqtt_ssl: false
 odin2_soc_topic: odin2/charge
